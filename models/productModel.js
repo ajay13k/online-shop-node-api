@@ -7,5 +7,6 @@ const productModel = mongoose.Schema({
     categoryid:{type:String,required:true}
 
 })
+
 const product = mongoose.model('product',productModel)
 module.exports = product
